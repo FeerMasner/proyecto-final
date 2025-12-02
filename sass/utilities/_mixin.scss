@@ -1,0 +1,13 @@
+//mixin
+
+@mixin flex-center($flexdir: column) { 
+  display: flex;
+  flex-direction: $flexdir; 
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin grid-responsive($min) { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($min, 1fr));
+}

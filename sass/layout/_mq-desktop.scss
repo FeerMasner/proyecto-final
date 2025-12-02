@@ -1,0 +1,11 @@
+//variables
+@use "../utilities/variables" as *;
+
+//mixin
+@use "../utilities/mixin" as *;
+
+@media screen and (min-width: 1024px) {
+  .contenedor-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
