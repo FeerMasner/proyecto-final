@@ -9,34 +9,3 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
-.navbar-toggler{
-  display: none;
-}
-
-.navbar{
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .navbar-brand{
-    margin-right: auto;
-  }
-
-  .navbar-collapse{
-    display: flex !important;
-    justify-content: flex-end;
-
-    .bg-light{
-      background: none !important;
-    }
-  }
-
-  .navbar-nav{
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-  }
-}
