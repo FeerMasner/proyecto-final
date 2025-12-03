@@ -219,6 +219,31 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.navbar-toggler {
+  display: none;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar-brand {
+  margin-right: auto;
+}
+.navbar .navbar-collapse {
+  display: flex !important;
+  justify-content: flex-end;
+}
+.navbar .navbar-collapse .bg-light {
+  background: none !important;
+}
+.navbar .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
 @media screen and (min-width: 768px) {
   .contenedor-grid {
     grid-template-columns: repeat(2, 1fr);
